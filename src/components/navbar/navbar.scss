@@ -1,0 +1,16 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	background-color: yellow;
+
+	.left {
+		flex: 3;
+		background-color: aqua;
+	}
+	.right {
+		flex: 2;
+		background-color: coral;
+	}
+}
