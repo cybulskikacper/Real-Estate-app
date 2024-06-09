@@ -11,7 +11,7 @@
 	flex-direction: column;
 
 	@include lg {
-		maxw: 1280px;
+		max-width: 1280px;
 	}
 
 	@include md {
