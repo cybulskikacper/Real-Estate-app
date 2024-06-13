@@ -1,0 +1,18 @@
+.listPage {
+	display: flex;
+	height: 100%;
+
+	.listContainer {
+		background-color: yellow;
+		flex: 3;
+
+		.wrapper {
+			padding-right: 50px;
+		}
+	}
+
+	.mapContainer {
+		background-color: pink;
+		flex: 2;
+	}
+}
