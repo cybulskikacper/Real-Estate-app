@@ -11,7 +11,7 @@ function Card({ item }) {
 				<h2 className="title">
 					<Link to={`/${item.id}`}>{item.title}</Link>
 				</h2>
-				<p className="address">
+				<p className="adress">
 					<img src="./src/assets/pin.png" alt="" />
 					<span>{item.address}</span>
 				</p>
