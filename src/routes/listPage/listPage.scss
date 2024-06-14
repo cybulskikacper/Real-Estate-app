@@ -3,11 +3,15 @@
 	height: 100%;
 
 	.listContainer {
-		background-color: yellow;
+		background-color: grey;
 		flex: 3;
 
 		.wrapper {
 			padding-right: 50px;
+			display: flex;
+			flex-direction: column;
+			gap: 50px;
+			overflow-y: scroll;
 		}
 	}
 
