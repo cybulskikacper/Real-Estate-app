@@ -11,7 +11,7 @@ function Map({ items }) {
 				url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 			/>
 			{items.map(item => (
-				<Pin item={item} key={item.id}></Pin>
+				<Pin item={item} key={item.id} />
 			))}
 		</MapContainer>
 	)

@@ -12,11 +12,11 @@ function Card({ item }) {
 					<Link to={`/${item.id}`}>{item.title}</Link>
 				</h2>
 				<p className="adress">
-					<img src="./src/assets/pin.png" alt="" />
+					<img src="./src/assets/pin.png" alt="dupa" />
 					<span>{item.address}</span>
 				</p>
 
-				<p className="price">${item.price}</p>
+				<p className="price">$ {item.price}</p>
 
 				<div className="bottom">
 					<div className="features">
