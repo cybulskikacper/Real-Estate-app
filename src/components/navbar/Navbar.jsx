@@ -28,7 +28,8 @@ function NavBar() {
 						/>
 						<span>John Doe</span>
 						<Link to="/profile" className="profile">
-							Profile
+							<div className="notification">3</div>
+							<span>Profile</span>
 						</Link>
 					</div>
 				) : (
